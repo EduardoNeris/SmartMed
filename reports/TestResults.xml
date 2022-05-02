@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="04/22/2022 18:02:30">
+  <assembly name="/projects/challenge/CalendarTests/bin/Debug/netcoreapp3.0/CalendarTests.dll" run-date="2022-04-22" run-time="18:02:30" total="10" passed="0" failed="10" skipped="0" time="1.086" errors="0">
+    <errors />
+    <collection total="10" passed="0" failed="10" skipped="0" name="Test collection for CalendarTests.UnitTest1" time="1.086">
+      <test name="CalendarTests.UnitTest1.TestCase8" type="CalendarTests.UnitTest1" method="TestCase8" time="0.8931944" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 204, but found NotFound.</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.ObjectAssertions.Be(Object expected, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase8() in /projects/challenge/CalendarTests/UnitTest1.cs:line 232
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase4" type="CalendarTests.UnitTest1" method="TestCase4" time="0.0432533" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 200, but found NotFound.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase4() in /projects/challenge/CalendarTests/UnitTest1.cs:line 156
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase7" type="CalendarTests.UnitTest1" method="TestCase7" time="0.0549483" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 200, but found NotFound.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase7() in /projects/challenge/CalendarTests/UnitTest1.cs:line 216
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase9" type="CalendarTests.UnitTest1" method="TestCase9" time="0.0136042" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 204, but found NotFound.</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.ObjectAssertions.Be(Object expected, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase9() in /projects/challenge/CalendarTests/UnitTest1.cs:line 252
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase1" type="CalendarTests.UnitTest1" method="TestCase1" time="0.0135949" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 200, but found NotFound.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase1() in /projects/challenge/CalendarTests/UnitTest1.cs:line 95
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase3" type="CalendarTests.UnitTest1" method="TestCase3" time="0.0129069" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 200, but found NotFound.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase3() in /projects/challenge/CalendarTests/UnitTest1.cs:line 134
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase0" type="CalendarTests.UnitTest1" method="TestCase0" time="0.0129773" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 201, but found NotFound.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase0() in /projects/challenge/CalendarTests/UnitTest1.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase6" type="CalendarTests.UnitTest1" method="TestCase6" time="0.0129234" result="Fail">
+        <failure>
+          <message>Expected response1.StatusCode to be 405, but found NotFound.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase6() in /projects/challenge/CalendarTests/UnitTest1.cs:line 204
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase2" type="CalendarTests.UnitTest1" method="TestCase2" time="0.0142730" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 200, but found NotFound.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase2() in /projects/challenge/CalendarTests/UnitTest1.cs:line 112
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CalendarTests.UnitTest1.TestCase5" type="CalendarTests.UnitTest1" method="TestCase5" time="0.0140101" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 200, but found NotFound.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CalendarTests.UnitTest1.TestCase5() in /projects/challenge/CalendarTests/UnitTest1.cs:line 178
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
